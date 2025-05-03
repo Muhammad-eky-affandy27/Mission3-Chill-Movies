@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chill-Login</title>
+    <link
+      rel="shortcut icon"
+      href="./images/logo/Chill-logo-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+        <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="loginpage"></body
+    <div class="container">
+            <div class="topcontainer"
+      <img class="Chilllogo"src="./images/logo/Chill-logo.png" alt="Chill-logo" />
+      <h3 class="title">Masuk</h3>
+      <p>Selamat datang kembali</p>
+      </div>
+
+      <form class="formlogin">
+        <div class="formgroup">
+            <label class="formlabel" for="username">Username</label>
+            <input class="forminput"
+              type="text"
+              placeholder="Masukkan Username"
+              name="username"
+              id="username"
+            /></div>
+        
+            <div class="formgroup">
+                <label class="formlabel" for="katasandi">Kata Sandi</label>
+                <div class="password-container">
+                <input class="forminput"
+                  type="password"
+                  placeholder="Masukkan Kata Sandi"
+                  name="katasandi"
+                  id="katasandi"
+                  <i class="fa-solid fa-eye-slash togglePassword"></i>
+                /></div>
+        
+                <div class="additional-info">
+            <p>Belum punya akun? <a class="link"href="register.html">Daftar</a></p>
+        <a class="link" href="#">Lupa kata sandi?</a> </div>
+
+        <button class="button"type="submit">Masuk</button>
+        <p class="wordseparator">atau</p>
+        <button class="buttonGoogle"type="button">
+          <img class="buttonicon"src="./images/logo/Icon-google.png" alt="google-icon" /><span>Masuk dengan Google</span> 
+        </button>
+      </form>
+    </main>
+  </body>
+</html>
