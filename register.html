@@ -4,6 +4,62 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Chill-Register</title>
+    <link
+      rel="shortcut icon"
+      href="./images/logo/Chill-logo-icon.png"
+      type="image/x-icon"
+    />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+        <link rel="stylesheet" href="styles/styleregister.css" />
   </head>
-  <body></body>
+  <body>
+    <div Class="loginpage"></div>
+    <div Class="container">
+            <div Class="topcontainer"
+      <img Class="Chilllogo"src="./images/logo/Chill-logo.png" alt="Chill-logo" />
+      <h3 Class="title">Daftar</h3>
+      <p>Selamat datang!</p>
+      </div>
+
+      <form Class="formlogin">
+        <div Class="formgroup">
+            <label for="formlabel" for="username">Username</label><br
+            <label Class="username-container">
+            <input Class="forminput"
+              type="text"
+              placeholder="Masukkan Username"
+              name="username"
+              id="username"><br>
+
+                <label for="formlabel" for="katasandi">Kata Sandi</label><br>
+                <label Class="password-container">
+                <input Class="forminput"
+                  type="password"
+                  placeholder="Masukkan Kata Sandi"
+                  name="katasandi"
+                  id="katasandi" />
+                  <i Class="fa-solid fa-eye-slash togglePassword"></i><br>
+                
+                <label for="formlabel" for="katasandi">Konfirmasi Kata Sandi</label><br>
+                <label Class="password-container">
+                <input Class="forminput"
+                  type="password"
+                  placeholder="Masukkan Kata Sandi"
+                  name="katasandi"
+                  id="katasandi" />
+                  <i Class="fa-solid fa-eye-slash togglePassword"></i>
+               
+                  <div Class="additional-info">
+            <p>Sudah punya akun? <a Class="link"href="register.html">Masuk</a></p>
+            <button Class="button"type="submit">Masuk</button>
+            <p Class="wordseparator">atau</p>
+            <button Class="buttonGoogle"type="button">
+              <img class="buttonicon"src="./images/logo/Icon-google.png" alt="google-icon" /><span>Masuk dengan Google</span> 
+            </button>
+          </form>
+  </body>
 </html>
