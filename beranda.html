@@ -3,7 +3,370 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <t0itle>Chill-Beranda</t0itle>
+    <title>Chill-Beranda</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles/stylberanda.css" />
   </head>
-  <body></body>
+  <body style="background-color: #000000">
+    <!-- Navbar -->
+    <nav>
+      <div class="Navbar">
+        <div class="Navbar-Logo">
+          <a href="#"
+            ><img src="./images/logo/Chill-logo.png" alt="Chill-logo" />
+          </a>
+        </div>
+        <ul class="Navbar-Menu">
+          <li>
+            <a href="" style="color: white; text-decoration: none">Series</a>
+          </li>
+          <li>
+            <a href="" style="color: white; text-decoration: none">Film</a>
+          </li>
+          <li>
+            <a href="" style="color: white; text-decoration: none"
+              >Tentang Saya</a
+            >
+          </li>
+        </ul>
+        <!-- Avatar -->
+        <div class="navbar-dropdown">
+          <button
+            class="dropbtn"
+            type="button"
+            data-bs-toggle="dropdwwon"
+            aria-expanded="false"
+          >
+            <img
+              class="btn-img"
+              src=":./images/background/avatarlogo.png"
+              alt="Avatar"
+            />
+            <img
+              class="btn-arrowdown"
+              src="./images/background/arrowdown.png"
+              alt="Avatar"
+            />
+          </button>
+          <ul class="dropdown-content" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Profil Saya</a></li>
+            <li><a class="dropdown-item" href="#">Ubah Premium</a></li>
+            <li><a class="dropdown-item" href="#">Keluar</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Navbar -->
+    <!-- backgroundimageDutyAfterSchool  -->
+    <div class="bannerdutyafterschool"
+      src="./images/background/background-duty after school.png"
+      alt="BannerBackground" />
+    </div>
+    <div class="text-bannerdutyafterschool">
+      <h1>Duty After School</h1>
+      <p>
+        Sebuah benda tak dikenal mengambil alih dunia. Dalam keputusasaan,<br />
+        Departemen Pertahanan mulai merekrut lebih banyak tentara, termasuk
+        siswa
+        <span
+          >sekolah menengah, Mereka pun segera menjadi pejuang garis depan dalam
+          perang.</span
+        >
+      </p>
+    </div>
+    <div class="btn-banner-1">
+      <button
+        style="
+          border-radius: 10px;
+          background-color: blue;
+          font-color: white;
+          padding-inline: 1vh;
+        "
+      >
+        Mulai
+      </button>
+      <button class="btn-banner-2">
+        <span
+          ><img
+            src="./images/background/icon_info.png
+            alt="icon_info" /></span
+        >Selengkapnya
+      </button>
+      <button class="btn-banner-3">18+</button>
+      <button class="btn-banner-4">
+        <img src="./images/background/volume-off.png" alt="volume" />
+      </button>
+    </div>
+    <!-- backgroundimageDutyAfterSchool  -->
+
+    <!-- Melanjutkan Tonton Film -->
+    <div style="color: black; margin-top: 3vh">
+      <h2>Melanjutkan Tonton Film</h2>
+      <div class="container-melanjutkan">
+        <div class="list-film">
+          <span>
+            <img
+              class="arrow-left"
+              src="./images/background/arrowleft.png"
+              alt="arrow left"
+            />
+          </span>
+          <img src="./images/background/dontlookup.png" alt="Don't Look Up" />
+          <span class="deskripsi">Don't Look Up</span>
+          <div class="rate">
+            <p>
+              <span><img src="./images/background/Star.png" alt="star" /></span
+              >4.5/5
+            </p>
+          </div>
+        </div>
+        <div class="list-film">
+          <img src="./images/background/thebatman.png" alt="The batman" />
+          <p class="deskripsi">The Batman</p>
+          <p class="rate">
+            <span><img src="./images/background/Star.png" alt="star" /></span
+            >4.2/5
+          </p>
+        </div>
+        <div class="list-film">
+          <img src="./images/background/bluelock.png" alt="Blue lock" />
+          <p class="deskripsi">Blue Lock</p>
+          <p class="status">Episode Baru</p>
+          <p class="rate">
+            <span><img src="./images/background/Star.png" alt="star" /></span>4.6/5
+          </p>
+        </div>
+        <div class="list-film">
+          <img src="./images/background/otto.png" alt="A man called otto" />
+          <p class="deskripsi">A Man Called Otto</p>
+          <p class="rate">
+            <img src="./images/background/Star.png" alt="star" /><span>4.4/5 </span>
+          </p>
+          <span>
+            <img
+              class="arrow-right"
+              src="./images/background/arrowright.png"
+              alt="arrow left"
+            />
+          </span>
+        </div>
+      </div>
+    </div>
+    <!-- Melanjutkan Tonton Film -->
+
+    <!-- Top Rating Film dan Series Hari Ini -->
+    <div style="color: black; margin-top: 3vh">
+      <h2 style="margin-left: 5%">Top Rating Film dan Series Hari Ini</h2>
+
+      <div class="container-top">
+        <div class="list-film-top">
+          <span
+            ><img
+              class="arrow-left-top"
+              src="./images/background/arrowleft.png"
+              alt="arrow left"
+          /></span>
+          <p class="status">Episode Baru</p>
+          <img src="./images/background/suzume.png" alt="Suzume" />
+        </div>
+        <div class="list-film-top">
+          <img src="./images/background/jurassicworld.png" alt="jurrasic-worl" />
+        </div>
+        <div class="list-film-top">
+          <img src="./images/background/sonic2.png" alt="sonic 2" />
+        </div>
+        <div class="list-film-top">
+          <img src="./images/background/allofusaredead.png" alt="all of us" />
+          <p class="status">Episode Baru</p>
+        </div>
+        <div class="list-film-top">
+          <img src="./images/background/bighero6.png" alt="big hero 6" />
+          <span>
+            <img
+              class="arrow-right-top"
+              src="./images/background/arrowright.png"
+              alt="arrow right"
+          /></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Top Rating Film dan Series Hari Ini -->
+
+    <!-- Film Trending -->
+    <div style="color: black">
+      <h2>Film Trending</h2>
+      <div class="container-top" id="film-trending">
+        <div class="list-film-top">
+          <span
+            ><img
+              class="arrow-left-top"
+              src="./images/background/arrowleft.png"
+              alt="arrow left"
+          /></span>
+          <p class="tags-top">Top <br />10</p>
+          <img src="./images/background/tommorowwar.png" alt="Tomorrow War" />
+        </div>
+        <div class="list-film-top">
+          <p class="tags-top">Top <br />10</p>
+          <img src="./images/background/quatumania.png" alt="Quantumania" />
+        </div>
+        <div class="list-film-top">
+          <p class="tags-top">Top <br />10</p>
+          <img
+            src="./images/background/guadiangalaxy.png"
+            alt="guardian galaxy"
+          />
+        </div>
+        <div class="list-film-top">
+          <p class="tags-top">Top <br />10</p>
+          <img src="./images/background/tomhanks.png" alt="Tom Hanks" />
+        </div>
+        <div class="list-film-top">
+          <p class="tags-top">Top <br />10</p>
+          <img src="./images/backgroud/littlemermaid.png" alt="little mermaid" />
+          <span
+            ><img
+              class="arrow-right-top"
+              src="./images/background/arrowright.png"
+              alt="arrow right"
+          /></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Film Trending -->
+
+    <!-- Rilis Baru -->
+    <div style="color: black">
+      <h2>Rilis Baru</h2>
+      <div class="container-top">
+        <div class="list-film-top">
+          <span
+            ><img
+              class="arrow-left-top"
+              src="./images/background/arrowleft.png"
+              alt="arrow left"
+          /></span>
+          <p class="tags-top">Top <br />10</p>
+          <img src="./images/background/littlemermaid.png" alt="little mermaid" />
+        </div>
+        <div class="list-film-top">
+          <p class="status">Episode Baru</p>
+          <img
+            src="./images/background/dutyafterschool.png"
+            alt="duty after school"
+          />
+        </div>
+        <div class="list-film-top">
+          <p class="tags-top">Top <br />10</p>
+          <img src="./images/background/bighero6.png" alt="big hero 6" />
+        </div>
+        <div class="list-film-top">
+          <p class="status" id="status-top-rating-2">Episode Baru</p>
+          <img
+            src="./images/background/allofusaredead.png"
+            alt="all of us dead"
+          />
+        </div>
+        <div class="list-film-top">
+          <img src="./images/background/missing.png" alt="missing" />
+          <span
+            ><img
+              class="arrow-right-top"
+              src="./images/background/arrowright.png"
+              alt="arrow right"
+          /></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Rilis Baru -->
+    <!-- footer -->
+    <hr />
+    <footer>
+      <div class="footer footer-css">
+        <div class="container-footer" id="footer">
+          <div class="grid-merge-1">
+            <a class="navbar-brand text-white fw-bold" href="#">
+              <img
+                src="images/logo/Vector.png"
+                alt="Logo"
+                width="60"
+                height="auto"
+                style="display: inline"
+              />
+              <h2 class="h2-chill">CHILL</h2>
+            </a>
+            <br />
+            <br />
+            <p>@2023 Chill All Rights Reserved.</p>
+          </div>
+        </div>
+        <div class="container-footer" id="genre">
+          <div>
+            <h5 style="font-weight: bold">Genre</h5>
+            <p>Aksi</p>
+            <p>Anak-Anak</p>
+            <p>Anime</p>
+            <p>Britania</p>
+            <span
+              ><img
+                class="arrow-right-top-mobile-1"
+                src="./images/background/arrowright-footer.png"
+                alt="arrow-right"
+            /></span>
+          </div>
+          <div>
+            <h5 style="font-weight: bold; color: black">zzz</h5>
+            <p>Drama</p>
+            <p>Fantasi Ilmiah & Fantasi</p>
+            <p>Kejahatan</p>
+            <p>KDrama</p>
+          </div>
+          <div>
+            <h5 style="font-weight: bold; color: black">zzz</h5>
+            <p>Komedi</p>
+            <p>Petualangan</p>
+            <p>Perang</p>
+            <p>Romantis</p>
+          </div>
+          <div>
+            <h5 style="font-weight: bold; color: black">zzz</h5>
+            <p>Sains & Alam</p>
+            <p>Thriller</p>
+          </div>
+        </div>
+        <div class="container-footer" id="bantuan">
+          <div>
+            <h5 style="font-weight: bold">Bantuan</h5>
+            <p>FAQ</p>
+            <p>Kontak Kami</p>
+            <p>Privasi</p>
+            <p>Syarat & Ketentuan</p>
+            <span
+              ><img
+                class="arrow-right-top-mobile-2"
+                src="./images/background/arrowright-footer.png"
+                alt="arrow-right"
+            /></span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JS bootstrap -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+    <!-- JS bootstrap -->
+  </body>
 </html>

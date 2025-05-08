@@ -14,52 +14,91 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
     />
-        <link rel="stylesheet" href="styles/styleregister.css" />
+    <link rel="stylesheet" href="styles/styleregister.css" />
   </head>
   <body>
-    <div Class="loginpage"></div>
-    <div Class="container">
-            <div Class="topcontainer"
-      <img Class="Chilllogo"src="./images/logo/Chill-logo.png" alt="Chill-logo" />
-      <h3 Class="title">Daftar</h3>
-      <p>Selamat datang!</p>
-      </div>
-
-      <form Class="formlogin">
-        <div Class="formgroup">
-            <label for="formlabel" for="username">Username</label><br
-            <label Class="username-container">
-            <input Class="forminput"
+    <div>
+      <img src="./images/background/background2-Chill.jpg" alt="bg" />
+      <div class="boxCenter">
+        <div class="boxHeaderRegis">
+          <img
+            class="Chilllogo"
+            src="./images/logo/Chill-logo.png"
+            alt="Chill-logo"
+          />
+          <br /><br />
+          <h3>Daftar</h3>
+          <p>Selamat datang!</p>
+          <form>
+            <!-- username -->
+            <label>Username</label> <br />
+            <input
+              class="forminput"
               type="text"
               placeholder="Masukkan Username"
               name="username"
-              id="username"><br>
+              id="username"
+            />
+            <br />
+            <br />
 
-                <label for="formlabel" for="katasandi">Kata Sandi</label><br>
-                <label Class="password-container">
-                <input Class="forminput"
-                  type="password"
-                  placeholder="Masukkan Kata Sandi"
-                  name="katasandi"
-                  id="katasandi" />
-                  <i Class="fa-solid fa-eye-slash togglePassword"></i><br>
-                
-                <label for="formlabel" for="katasandi">Konfirmasi Kata Sandi</label><br>
-                <label Class="password-container">
-                <input Class="forminput"
-                  type="password"
-                  placeholder="Masukkan Kata Sandi"
-                  name="katasandi"
-                  id="katasandi" />
-                  <i Class="fa-solid fa-eye-slash togglePassword"></i>
-               
-                  <div Class="additional-info">
-            <p>Sudah punya akun? <a Class="link"href="register.html">Masuk</a></p>
-            <button Class="button"type="submit">Masuk</button>
-            <p Class="wordseparator">atau</p>
-            <button Class="buttonGoogle"type="button">
-              <img class="buttonicon"src="./images/logo/Icon-google.png" alt="google-icon" /><span>Masuk dengan Google</span> 
-            </button>
+            <!-- pass  -->
+            <label for="formlabel" for="katasandi">Kata Sandi</label>
+            <br />
+            <div class="input">
+              <input
+                type="password"
+                placeholder="Masukkan Kata Sandi"
+                name="katasandi"
+                id="katasandi"
+              />
+              <div class="iconEye">
+                <i Class="fa-solid fa-eye-slash togglePassword"></i>
+              </div>
+            </div>
+            <br />
+            <!-- conf pass -->
+            <label for="formlabel" for="katasandi">Konfirmasi Kata Sandi</label>
+            <br />
+            <div class="input">
+              <input
+                type="password"
+                placeholder="Masukkan konfirmasi Kata Sandi"
+                name="katasandi"
+                id="katasandi"
+              />
+              <div class="iconEye">
+                <i Class="fa-solid fa-eye-slash togglePassword"></i>
+              </div>
+            </div>
           </form>
+          <br />
+
+          <div class="additionalInfo">
+            <p>
+              Sudah punya akun?
+              <a class="link" href="register.html">Masuk</a>
+            </p>
+          </div>
+          <br />
+          <div class="groupButton">
+            <button class="btn-daftar" type="submit">Daftar</button>
+            <div class="separator">atau</div>
+            <button
+              class="btn-daftar"
+              style="display: flex; margin-left: 1.5vw; justify-content: center; items-center;"
+              type="button"
+            >
+              <img
+                class=""
+                src="./images/logo/Icon-google.png"
+                alt="google-icon"
+              />
+              <p>Masuk dengan Google</p>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
